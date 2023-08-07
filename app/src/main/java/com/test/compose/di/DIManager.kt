@@ -1,4 +1,4 @@
-package com.dagger.composeeffecthandlers.di
+package com.test.compose.di
 
 import android.content.Context
 import org.koin.android.ext.koin.androidContext

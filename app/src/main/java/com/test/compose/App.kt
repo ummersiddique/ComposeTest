@@ -1,7 +1,7 @@
-package com.dagger.composeeffecthandlers
+package com.test.compose
 
 import android.app.Application
-import com.dagger.composeeffecthandlers.di.DIManager
+import com.test.compose.di.DIManager
 import com.o3interfaces.fusioninspect.core.FusionInspect
 
 class App : Application() {

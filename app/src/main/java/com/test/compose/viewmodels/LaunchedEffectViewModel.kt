@@ -1,4 +1,4 @@
-package com.dagger.composeeffecthandlers.viewmodels
+package com.test.compose.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

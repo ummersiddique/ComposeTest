@@ -1,4 +1,4 @@
-package com.dagger.composeeffecthandlers.screens
+package com.test.compose.screens
 
 import androidx.compose.runtime.Composable
 

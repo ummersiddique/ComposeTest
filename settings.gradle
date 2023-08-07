@@ -16,5 +16,5 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "Compose Effect Handlers"
+rootProject.name = "Compose Test"
 include ':app'

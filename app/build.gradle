@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.dagger.composeeffecthandlers'
+    namespace 'com.test.compose'
     compileSdk 33
 
     defaultConfig {

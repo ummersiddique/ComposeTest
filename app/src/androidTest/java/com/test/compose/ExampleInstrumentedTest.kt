@@ -1,4 +1,4 @@
-package com.dagger.composeeffecthandlers
+package com.test.compose
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.dagger.composeeffecthandlers", appContext.packageName)
+        assertEquals("com.test.compose", appContext.packageName)
     }
 }

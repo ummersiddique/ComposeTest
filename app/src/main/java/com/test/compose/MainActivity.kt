@@ -1,4 +1,4 @@
-package com.dagger.composeeffecthandlers
+package com.test.compose
 
 import android.os.Bundle
 import android.widget.Toast
@@ -24,8 +24,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.dagger.composeeffecthandlers.ui.theme.ComposeEffectHandlersTheme
-import com.dagger.composeeffecthandlers.viewmodels.LaunchedEffectViewModel
+import com.test.compose.ui.theme.ComposeTheme
+import com.test.compose.viewmodels.LaunchedEffectViewModel
 import kotlinx.coroutines.delay
 
 class MainActivity : ComponentActivity() {
@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeEffectHandlersTheme {
+            ComposeTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -155,7 +155,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    ComposeEffectHandlersTheme {
+    ComposeTheme {
         Greeting("Android")
     }
 }
@@ -171,7 +171,7 @@ fun Screen1Preview() {
 @Preview(showBackground = true)
 @Composable
 fun Screen2Preview() {
-    ComposeEffectHandlersTheme {
+    ComposeTheme {
         DemoScreen(text = "Second Screen") {
 
         }

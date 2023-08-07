@@ -1,4 +1,4 @@
-package com.dagger.composeeffecthandlers
+package com.test.compose
 
 import kotlinx.coroutines.delay
 
